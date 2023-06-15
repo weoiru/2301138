@@ -1,0 +1,90 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+.header img {
+  width: 150px;
+  height: auto;
+}
+
+.header input[type="search"] {
+  padding: 5px;
+  width: 300px;
+  font-size: 14px;
+}
+
+.header input[type="button"] {
+  padding: 5px 10px;
+  font-size: 14px;
+  background-color: #ccc;
+  border: none;
+  cursor: pointer;
+}
+
+.nav {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.nav a {
+  padding: 10px 20px;
+  margin-right: 10px;
+  font-size: 18px;
+  color: #333;
+  text-decoration: none;
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: left;
+  background-color: #fff;
+}
+
+.content h1, .content h2, .content h3, .content h4 {
+  margin-top: 0;
+  color: #333;
+}
+
+.content p {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.login-link {
+  display: block;
+  margin-top: 20px;
+  color: #333;
+  text-decoration: none;
+}
+
+.section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  background-color: #e1ecf4;
+  padding: 20px;
+}
+
+.section .content {
+  flex-basis: 23%;
+  background-color: #b4d8e9;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.section .content h1 {
+  color: #145c9e;
+}
+
+.section .content p {
+  color: #145c9e;
+}
+
